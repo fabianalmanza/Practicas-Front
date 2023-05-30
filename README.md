@@ -1,2 +1,2 @@
-# Mi Biografia
+# Practicas
 ## En HTML , CSS y Js
