@@ -1,0 +1,39 @@
+body{
+    background-color: #eee;
+}
+.caja{
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    border-color: #ccc;
+    border-top: solid 0px;
+    
+    
+         
+            
+            
+}
+p{
+    padding: 10px;
+}
+.caja-2{
+    border-top: solid 0px;
+   background-color: #fff;
+   border-style: solid;
+   border-width: 1px;
+   border-radius: 4px;
+   border-color: #ccc;
+   
+   
+  
+}
+.boton-uno{
+border-radius: 30px;
+background: aqua;
+}
+.boton-dos{
+    border-radius: 30px;
+    background-color: gray
+   
+}
