@@ -1,12 +1,75 @@
 <!DOCTYPE html>
+
+
+
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <meta name="viewport" content="width= , initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Cuestionario con tiempo limite</title>
+
 </head>
-<body>
+
+
+
+<body onload="comenzarReloj()">
+    <main>
+        <article>
+        <div>
+            <p>Pregunta #1 <br> ¿Lorem ipsum dolor sit amet consectetur adipisicing elit?.</p>
+            <input type="text" id="texto1">
+        </div>
+        <div>
+            <p>Pregunta #2 <br> ¿Lorem ipsum dolor sit amet consectetur adipisicing elit?.</p>
+            <input type="text" id="texto2">
+        </div>
+        <div>
+            <p>Pregunta #3 <br> ¿Lorem ipsum dolor sit amet consectetur adipisicing elit?.</p>
+            <input type="text" id="texto3">
+        </div>
+        <div>
+            <p>Pregunta #4 <br> ¿Lorem ipsum dolor sit amet consectetur adipisicing elit?.</p>
+            <input type="text" id="texto4">
+        </div>
+        <div>
+            <p>Pregunta #5 <br> ¿Lorem ipsum dolor sit amet consectetur adipisicing elit?.</p>
+            <input type="text" id="texto5">
+
+        </div>
+
+
+  <div>
+        <br>
+        <button id="boton" onclick="respuestas()">Enviar Respuestas</button>
+    </div>
+
+
+    </article>
+
+  
+
+
+    <h1 id="regresiva"></h1>
+    <audio id="sonido1">
+        <source src="./Audio/gameover.mp3" type="audio/mpeg">
+        sonido no habilitado
+    </audio>
+
+    <p id="contenidoRespuestas">Exitos!</p> <br>
+
+    <button id="btnReiniciar" style="display: none;" onclick="reiniciar()">Volver a intentar</button>
+ 
+    </main>
     
+ 
+ 
+    <script src="./Js/main.js"></script>
 </body>
+
+
 </html>
