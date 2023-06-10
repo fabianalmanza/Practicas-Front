@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(90deg, 
+      #cdffff 0, #b1fcff 12.5%, #92efff 25%,
+      #6de0ff 37.5%, #38d0ff 50%, 
+      #00c0fb 62.5%, #00b0f8 75%,
+      #00a2f5 87.5%, #0094f2 100%);
+}
+.container {
+  
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 5%;
+  padding-bottom: 20%;
+  margin: 5%;
+ background-image: radial-gradient(circle at 47.28% 50%, #badcff 0, #389aff 50%, #005fe3 100%);
+}
+header{
+  text-align: center;
+}
+main {
+  text-align: center ;
+  
+}
+input {
+    height: 20px;    
+    width: 80px;
+    font-size: 1rem;
+}
+
+button {
+  
+    height: 35px;    
+    width: 120px;
+    font-size: 1rem;
+    font-weight: bold;
+   
+  border-radius: 5px;
+}
+div.botones {
+    display: flex;
+    justify-content: center;
+}
+
