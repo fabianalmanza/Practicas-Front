@@ -17,12 +17,12 @@ body {
   padding: 5%;
   padding-bottom: 20%;
   margin: 5%;
+  background: linear-gradient(rgba(5,7,
+  12,0.5), rgba(5,7,12,0.7)),
+  url(peliculas.jpg);
+  background-size: cover;
+  background-position: center;
 
- background: linear-gradient(rgba(5,7,
- 12,0.5), rgba(5,7,12,0.7)),
- url(peliculas.jpg);
- background-size: cover;
- background-position: center;
 }
 
 
@@ -30,7 +30,7 @@ header{
   text-align: center;
 }
 main {
-  
+  width: 100%;
   text-align: center ;
   
 }
@@ -49,8 +49,5 @@ button {
    
   border-radius: 5px;
 }
-div.botones {
-    display: flex;
-    justify-content: center;
-}
+
 
